@@ -4,11 +4,18 @@ using namespace std;
 
 void BubbleSort(vector<int>& arr, int n){
     for(int i=1; i<n; i++){
-        //for loop for 1 to n-1 rounds
+        //for loop for 1 to n-1 rounds or i=0 to i<n-1
+        bool swapped = false;
         for(int j=0; j<n-i; j++){
+            // or j=0 to j<n-i-1 for i=0 to i<n-1
             if(arr[j] > arr[j+1]){
                 swap(arr[j], arr[j+1]);
+                swapped = true;
             }
+        }
+        if(swapped == false){
+            // cout<<"Array already sorted."<<endl;
+            break;
         }
     }
 
@@ -32,6 +39,6 @@ int main(){
     }
 
     BubbleSort(arr, n);
-    
+
     return 0;
 }
