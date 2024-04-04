@@ -22,4 +22,30 @@ The repository currently covers a variety of DSA topics, and we're continuously 
 - and more...
 
 ## How to Use
-1. *Clone the Repository*: Clone this repository to your local machine using the following command:
+
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+   ```bash
+   git clone github.com/SehajMander/dsa_with_cpp
+   ```
+
+2. **Explore Questions**: Browse through the repository to find DSA practice questions organized by topics.
+
+3. **Choose a Question**: Select a question you want to solve and open its corresponding C++ solution file.
+
+4. **Implement Your Solution**: Implement your solution to the selected question in C++.
+
+5. **Test Your Solution**: Test your solution with sample inputs and verify its correctness.
+
+6. **Repeat**: Practice solving more questions from different topics to enhance your DSA skills.
+
+## Contributions
+
+Contributions to this repository are welcome! If you have a DSA practice question implemented in C++ that you'd like to share, feel free to submit a pull request.
+
+## Disclaimer
+
+The solutions provided in this repository are for educational purposes and may not be the most optimal solutions. There can be multiple approaches to solving each problem, and the solutions provided here are meant to serve as learning resources.
+
+Happy Coding!
+
+
